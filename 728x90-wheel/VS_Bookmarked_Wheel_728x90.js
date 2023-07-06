@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"VS_Bookmarked_Wheel_728x90_atlas_P_1", frames: [[0,0,728,90],[0,92,728,90]]},
+		{name:"VS_Bookmarked_Wheel_728x90_atlas_P_1", frames: [[0,0,728,90]]},
 		{name:"VS_Bookmarked_Wheel_728x90_atlas_NP_1", frames: [[0,0,444,250]]}
 ];
 
@@ -28,16 +28,9 @@ lib.ssMetadata = [
 
 
 
-(lib._728x90cityscape = function() {
-	this.initialize(ss["VS_Bookmarked_Wheel_728x90_atlas_P_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib._728x90wheel = function() {
 	this.initialize(ss["VS_Bookmarked_Wheel_728x90_atlas_P_1"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -123,7 +116,7 @@ if (reversed == null) { reversed = false; }
 	mask.setTransform(592,45);
 
 	// R_jpg
-	this.instance = new lib._728x90cityscape();
+	this.instance = new lib._728x90wheel();
 
 	var maskedShapeInstanceList = [this.instance];
 
@@ -135,12 +128,12 @@ if (reversed == null) { reversed = false; }
 
 	// flare
 	this.instance_1 = new lib.flare();
-	this.instance_1.setTransform(168.85,49.5,0.7505,0.7505);
+	this.instance_1.setTransform(-51.15,49.5,0.7505,0.7505);
 	this.instance_1.alpha = 0;
 	this.instance_1.compositeOperation = "screen";
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(29).to({_off:false},0).wait(1).to({x:195.1197,alpha:0.0089},0).wait(1).to({x:221.3893,alpha:0.0239},0).wait(1).to({x:247.6589,alpha:0.0511},0).wait(1).to({x:273.9286,alpha:0.1021},0).wait(1).to({x:300.1982,alpha:0.193},0).wait(1).to({x:326.4679,alpha:0.3307},0).wait(1).to({x:352.7,alpha:0.5},0).to({x:562.85,alpha:0},7).to({_off:true},1).wait(30).to({_off:false,x:168.85},0).wait(1).to({x:195.1197,alpha:0.0089},0).wait(1).to({x:221.3893,alpha:0.0239},0).wait(1).to({x:247.6589,alpha:0.0511},0).wait(1).to({x:273.9286,alpha:0.1021},0).wait(1).to({x:300.1982,alpha:0.193},0).wait(1).to({x:326.4679,alpha:0.3307},0).wait(1).to({x:352.7,alpha:0.5},0).to({x:562.85,alpha:0},7).to({_off:true},1).wait(21));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(29).to({_off:false},0).wait(1).to({x:-24.8804,alpha:0.0089},0).wait(1).to({x:1.3893,alpha:0.0239},0).wait(1).to({x:27.6589,alpha:0.0511},0).wait(1).to({x:53.9286,alpha:0.1021},0).wait(1).to({x:80.1982,alpha:0.193},0).wait(1).to({x:106.4679,alpha:0.3307},0).wait(1).to({x:132.7,alpha:0.5},0).to({x:342.85,alpha:0},7).to({_off:true},1).wait(30).to({_off:false,x:-51.15},0).wait(1).to({x:-24.8804,alpha:0.0089},0).wait(1).to({x:1.3893,alpha:0.0239},0).wait(1).to({x:27.6589,alpha:0.0511},0).wait(1).to({x:53.9286,alpha:0.1021},0).wait(1).to({x:80.1982,alpha:0.193},0).wait(1).to({x:106.4679,alpha:0.3307},0).wait(1).to({x:132.7,alpha:0.5},0).to({x:342.85,alpha:0},7).to({_off:true},1).wait(21));
 
 	// L_jpg
 	this.instance_2 = new lib._728x90wheel();
@@ -161,7 +154,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(364,0.7,365.5,142.60000000000002);
+p.nominalBounds = new cjs.Rectangle(146.3,0.7,581.7,142.60000000000002);
 // library properties:
 lib.properties = {
 	id: 'A79EFEC4A97F49888D3F6FD01A528C13',
@@ -171,8 +164,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/VS_Bookmarked_Wheel_728x90_atlas_P_1.png?1688161807516", id:"VS_Bookmarked_Wheel_728x90_atlas_P_1"},
-		{src:"images/VS_Bookmarked_Wheel_728x90_atlas_NP_1.jpg?1688161807516", id:"VS_Bookmarked_Wheel_728x90_atlas_NP_1"}
+		{src:"images/VS_Bookmarked_Wheel_728x90_atlas_P_1.png?1688673544694", id:"VS_Bookmarked_Wheel_728x90_atlas_P_1"},
+		{src:"images/VS_Bookmarked_Wheel_728x90_atlas_NP_1.jpg?1688673544694", id:"VS_Bookmarked_Wheel_728x90_atlas_NP_1"}
 	],
 	preloads: []
 };

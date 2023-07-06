@@ -187,8 +187,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/VS_Bookmarked_Wheel_970x250_atlas_P_1.png?1688153156151", id:"VS_Bookmarked_Wheel_970x250_atlas_P_1"},
-		{src:"images/VS_Bookmarked_Wheel_970x250_atlas_NP_1.jpg?1688153156151", id:"VS_Bookmarked_Wheel_970x250_atlas_NP_1"}
+		{src:"images/VS_Bookmarked_Wheel_970x250_atlas_P_1.png?1688673377218", id:"VS_Bookmarked_Wheel_970x250_atlas_P_1"},
+		{src:"images/VS_Bookmarked_Wheel_970x250_atlas_NP_1.jpg?1688673377218", id:"VS_Bookmarked_Wheel_970x250_atlas_NP_1"}
 	],
 	preloads: []
 };
