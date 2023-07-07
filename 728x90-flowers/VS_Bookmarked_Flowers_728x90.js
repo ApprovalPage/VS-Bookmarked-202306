@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"VS_Bookmarked_Flowers_728x90_atlas_P_1", frames: [[0,0,728,90],[0,92,728,90]]},
+		{name:"VS_Bookmarked_Flowers_728x90_atlas_P_1", frames: [[0,0,728,90]]},
 		{name:"VS_Bookmarked_Flowers_728x90_atlas_NP_1", frames: [[0,0,444,250]]}
 ];
 
@@ -28,16 +28,9 @@ lib.ssMetadata = [
 
 
 
-(lib._728x90cityscape = function() {
-	this.initialize(ss["VS_Bookmarked_Flowers_728x90_atlas_P_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib._728x90flowers = function() {
 	this.initialize(ss["VS_Bookmarked_Flowers_728x90_atlas_P_1"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -123,7 +116,7 @@ if (reversed == null) { reversed = false; }
 	mask.setTransform(592,45);
 
 	// R_jpg
-	this.instance = new lib._728x90cityscape();
+	this.instance = new lib._728x90flowers();
 
 	var maskedShapeInstanceList = [this.instance];
 
@@ -171,8 +164,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/VS_Bookmarked_Flowers_728x90_atlas_P_1.png?1688161821169", id:"VS_Bookmarked_Flowers_728x90_atlas_P_1"},
-		{src:"images/VS_Bookmarked_Flowers_728x90_atlas_NP_1.jpg?1688161821169", id:"VS_Bookmarked_Flowers_728x90_atlas_NP_1"}
+		{src:"images/VS_Bookmarked_Flowers_728x90_atlas_P_1.png", id:"VS_Bookmarked_Flowers_728x90_atlas_P_1"},
+		{src:"images/VS_Bookmarked_Flowers_728x90_atlas_NP_1.jpg", id:"VS_Bookmarked_Flowers_728x90_atlas_NP_1"}
 	],
 	preloads: []
 };

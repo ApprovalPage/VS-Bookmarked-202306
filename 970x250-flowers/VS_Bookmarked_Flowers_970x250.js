@@ -27,7 +27,7 @@ lib.ssMetadata = [
 
 
 
-(lib._970x250 = function() {
+(lib._970x250flowers = function() {
 	this.initialize(ss["VS_Bookmarked_Flowers_970x250_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -122,7 +122,7 @@ if (reversed == null) { reversed = false; }
 	mask.setTransform(797.5,125);
 
 	// R_jpg
-	this.instance = new lib._970x250();
+	this.instance = new lib._970x250flowers();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	var maskedShapeInstanceList = [this.instance];
@@ -143,7 +143,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(29).to({_off:false},0).wait(1).to({x:260,alpha:0.0089},0).wait(1).to({x:295,alpha:0.0239},0).wait(1).to({x:330,alpha:0.0511},0).wait(1).to({x:365,alpha:0.1021},0).wait(1).to({x:400,alpha:0.193},0).wait(1).to({x:435,alpha:0.3307},0).wait(1).to({x:470,alpha:0.5},0).to({x:750,alpha:0},7).to({_off:true},1).wait(30).to({_off:false,x:225},0).wait(1).to({x:260,alpha:0.0089},0).wait(1).to({x:295,alpha:0.0239},0).wait(1).to({x:330,alpha:0.0511},0).wait(1).to({x:365,alpha:0.1021},0).wait(1).to({x:400,alpha:0.193},0).wait(1).to({x:435,alpha:0.3307},0).wait(1).to({x:470,alpha:0.5},0).to({x:750,alpha:0},7).to({_off:true},1).wait(21));
 
 	// L_jpg
-	this.instance_2 = new lib._970x250();
+	this.instance_2 = new lib._970x250flowers();
 	this.instance_2.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(110));
@@ -179,7 +179,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/VS_Bookmarked_Flowers_970x250_atlas_NP_1.jpg?1687989793760", id:"VS_Bookmarked_Flowers_970x250_atlas_NP_1"}
+		{src:"images/VS_Bookmarked_Flowers_970x250_atlas_NP_1.jpg", id:"VS_Bookmarked_Flowers_970x250_atlas_NP_1"}
 	],
 	preloads: []
 };

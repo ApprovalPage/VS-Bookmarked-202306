@@ -3,7 +3,6 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"VS_Bookmarked_Wheel_970x250_atlas_P_1", frames: [[0,0,1940,500]]},
 		{name:"VS_Bookmarked_Wheel_970x250_atlas_NP_1", frames: [[0,0,1940,500],[0,502,444,250]]}
 ];
 
@@ -29,13 +28,6 @@ lib.ssMetadata = [
 
 
 (lib._970x250wheel = function() {
-	this.initialize(ss["VS_Bookmarked_Wheel_970x250_atlas_P_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib._970x250 = function() {
 	this.initialize(ss["VS_Bookmarked_Wheel_970x250_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -130,7 +122,7 @@ if (reversed == null) { reversed = false; }
 	mask.setTransform(797.5,125);
 
 	// R_jpg
-	this.instance = new lib._970x250();
+	this.instance = new lib._970x250wheel();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	var maskedShapeInstanceList = [this.instance];
@@ -187,8 +179,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/VS_Bookmarked_Wheel_970x250_atlas_P_1.png?1688673377218", id:"VS_Bookmarked_Wheel_970x250_atlas_P_1"},
-		{src:"images/VS_Bookmarked_Wheel_970x250_atlas_NP_1.jpg?1688673377218", id:"VS_Bookmarked_Wheel_970x250_atlas_NP_1"}
+		{src:"images/VS_Bookmarked_Wheel_970x250_atlas_NP_1.jpg", id:"VS_Bookmarked_Wheel_970x250_atlas_NP_1"}
 	],
 	preloads: []
 };

@@ -164,8 +164,8 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/VS_Bookmarked_Cityscape_728x90_atlas_P_1.png?1688161646463", id:"VS_Bookmarked_Cityscape_728x90_atlas_P_1"},
-		{src:"images/VS_Bookmarked_Cityscape_728x90_atlas_NP_1.jpg?1688161646463", id:"VS_Bookmarked_Cityscape_728x90_atlas_NP_1"}
+		{src:"images/VS_Bookmarked_Cityscape_728x90_atlas_P_1.png", id:"VS_Bookmarked_Cityscape_728x90_atlas_P_1"},
+		{src:"images/VS_Bookmarked_Cityscape_728x90_atlas_NP_1.jpg", id:"VS_Bookmarked_Cityscape_728x90_atlas_NP_1"}
 	],
 	preloads: []
 };
